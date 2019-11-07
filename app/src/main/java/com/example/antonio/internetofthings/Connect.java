@@ -26,8 +26,8 @@ public class  Connect extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String ssid = "PLDTHOMEDSL9J9E0";
-                String pass = "garingagaringa";
+                String ssid = "/*ssid here*/";
+                String pass = "/*password here*/";
                 WifiConfiguration  conf = new WifiConfiguration();
                 conf.SSID = "\""+ ssid + "\"";
                 conf.preSharedKey = "\""+ pass +"\"";
